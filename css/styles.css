@@ -2,10 +2,10 @@
     --main-txt-font: Roboto, sans-serif;
     --main-txt-clr: rgba(33, 33, 33, 1);
     --secondary-txt-clr: rgba(117, 117, 117, 1);
-    --logo-clr: #2196F3;
+    --logo-clr:rgba(33, 150, 243, 1);
 }
 /* Main */
-.body {
+.body { 
     font-family: var(--main-txt-font);
     color: var(--secondary-txt-clr);
 }
@@ -19,8 +19,9 @@
         color: var(--logo-crl);
 }
 .logo-letter {
-    
+   color: var(--main-txt-clr); 
 }
+/* Links */
 .link {
     text-decoration:none;  
 }
