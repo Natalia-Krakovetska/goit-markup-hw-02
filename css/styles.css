@@ -1,6 +1,11 @@
+.root {
+    --main-txt-font: Roboto, sans-serif;
+    --main-txt-clr: rgba(33, 33, 33, 1);
+    --secondary-txt-clr: rgba(117, 117, 117, 1)
+}
 /* Main */
 .body {
-    font-family: Roboto, sans-serif;
+    font-family: var(--main-txt-font);
 }
 /* Logo */
 .logo {
