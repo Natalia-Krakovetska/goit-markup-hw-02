@@ -100,7 +100,6 @@ font-family: inherit;
 }
 /* Operations */
 .operations-title, .team-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: calc(42 / 36);
     letter-spacing: 0.03em;
@@ -165,7 +164,6 @@ font-family: inherit;
 /* Service */
 
 .sevice-subtitle {
-    font-weight: 700;
     font-size: 18px;
     line-height: calc(36 / 18);
     letter-spacing: 0.06em;
