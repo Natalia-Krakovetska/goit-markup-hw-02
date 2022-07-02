@@ -4,6 +4,10 @@
     --secondary-txt-clr: #757575;
     --logo-clr:#2196F3;
 }
+/* Logo */!!!!!!!!!!!!!!
+.element-style {
+    color: var(--main-txt-clr);
+}
 .logo {
     font-style: normal;
     font-weight: 700;
@@ -13,18 +17,18 @@
     color: #2196F3;
 }
 
-.logo-letter {
-    color: var(--main-txt-clr);
+.list {
+    list-style-type: none;
 }
-
 /* Links */
 .link {
     text-decoration: none;
 }
+
 /* Main */
 .body { 
-    font-family: var(--main-txt-clr);
+    font-family: var(--main-txt-font);
     color: var(--secondary-txt-clr);
 }
-/* Logo */
+
 
