@@ -1,27 +1,30 @@
 .root {
     --main-txt-font: Roboto, sans-serif;
-    --main-txt-clr: rgba(33, 33, 33, 1);
-    --secondary-txt-clr: rgba(117, 117, 117, 1);
-    --logo-clr:rgba(33, 150, 243, 1);
+    --main-txt-clr: #212121;
+    --secondary-txt-clr: #757575;
+    --logo-clr:#2196F3;
+}
+.logo {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.logo-letter {
+    color: var(--main-txt-clr);
+}
+
+/* Links */
+.link {
+    text-decoration: none;
 }
 /* Main */
 .body { 
-    font-family: var(--main-txt-font);
+    font-family: var(--main-txt-clr);
     color: var(--secondary-txt-clr);
 }
 /* Logo */
-.logo {
-    font-family: Raleway, sans-serif;
-    font-style: normal;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: calc(31 / 26);    
-        color: var(--logo-crl);
-}
-.logo-letter {
-   color: var(--main-txt-clr); 
-}
-/* Links */
-.link {
-    text-decoration:none;  
-}
+
