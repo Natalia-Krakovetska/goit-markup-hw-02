@@ -14,6 +14,7 @@
 body {
   font-family: var(--main-txt-font);
   color: var(--main-txt-clr);
+  background-color: var(--btn-clr) ;
   font-style: normal;
 }
 .btn {
@@ -28,10 +29,14 @@ font-family: inherit;
   font-size: 26px;
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--logo-clr)
 }
 .logo .element-style {
   color: var(--main-txt-clr);
+}
+
+.navigation-list .current {
+color: var(--logo-clr);
 }
 .list {
   list-style-type: none;
