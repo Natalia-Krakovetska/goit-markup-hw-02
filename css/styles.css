@@ -1,72 +1,183 @@
 :root {
-    --main-txt-font: Roboto, sans-serif;
-    --secondary-txt-font: Raleway, sans-serif;
-    --main-txt-clr: #212121;
-    --secondary-txt-clr: #757575;
-    --logo-clr:#2196F3;
-    --bgr-clr: #2F303A;
+  --main-txt-font: Roboto, sans-serif;
+  --secondary-txt-font: Raleway, sans-serif;
+  --main-txt-clr: #212121;
+  --secondary-txt-clr: #757575;
+  --logo-clr: #2196f3;
+  --bgr-clr: #2f303a;
+  --secondary-bgr-clr: #F5F4FA;
+  --btn-clr: #ffffff;
+  --mail-tel-clr:rgba(255, 255, 255, 0.6);
 }
 
-
 /* Main */
-body { 
-    font-family: var(--main-txt-font);
-    color: var(--main-txt-clr);
+body {
+  font-family: var(--main-txt-font);
+  color: var(--main-txt-clr);
+  font-style: normal;
+}
+.btn {
+font-family: inherit;
 }
 /* Logo */
 
 .logo {
-    text-decoration: none;
-    font-family: var(--secondary-txt-font);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: calc(31 / 26);
-    letter-spacing: 0.03em;
-    color: #2196F3;
-    
+  text-decoration: none;
+  font-family: var(--secondary-txt-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: #2196f3;
 }
 .logo .element-style {
-color: var(--main-txt-clr);
+  color: var(--main-txt-clr);
 }
-
-.logo:hover {
-    color: var(--main-txt-clr)
-}
-
 .list {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 /* Links */
 .link {
-    text-decoration: none;
-    color: var(--main-txt-clr);
+  text-decoration: none;
+  color: var(--main-txt-clr);
 }
+
 .link:focus {
-    color: var(--logo-clr);
+  color: var(--logo-clr);
 }
-.link:hover{
-    color: var(--logo-clr);
+
+.link:hover {
+  color: var(--logo-clr);
 }
-.link :active {
-    color: var(--logo-clr);
+
+.link:active {
+  color: var(--logo-clr);
 }
+
 /* Heder */
-.navigation-list { 
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: calc(16 / 14);
-    letter-spacing: 0.02em;
+
+.navigation-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
 }
+
+/* Baner */
+
 .hero {
-    color: #FFFFFF;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: calc(60 / 44);
+  color: var(--btn-clr);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  background-color: var(--bgr-clr);
+}
+.hero-button {
+  color: var(--btn-clr);
+  background-color: var(--logo-clr);
+  font-style: normal;  
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.06em;
+  border-color: var(--logo-clr);
+}
+/* Dignity */
+.dignity-title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.dignity-text {
+  color: var(--secondary-txt-clr);  
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+}
+/* Operations */
+.operations-title, .team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    letter-spacing: 0.03em;
+}
+/* Team */
+.team {
+    background-color: var(--secondary-bgr-clr);
+}
+.team-card {
+    background-color: var(--btn-clr);
+}
+.card-title {
+    color: var(--main-txt-clr);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    letter-spacing: 0.03em;
+}
+.card-text {
+        color: var(--secondary-txt-clr);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: calc(19 / 16);
+        letter-spacing: 0.03em;
+}
+/* Footer */
+.footer {
     background-color: var(--bgr-clr);
 }
+.address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    font-style: normal;
+}
+.address-link { 
+    font-family: var(--secondary-txt-font);
+    color: var(--btn-clr);
+}
+.mail-link, .tel-link {
+    color: var(--mail-tel-clr);
+}
+.footer-element-style {
+    color: var(--btn-clr)
+}
 
+/* Portfolio */
+/* Main */
+.service-btn {
+    color: var(--main-txt-clr);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc (26 / 16);
+    letter-spacing: 0.03em;
+    background-color: var(--secondary-bgr-clr);
+    border-color: var(--secondary-bgr-clr)
+}
+.service-btn:hover {
+    color: var(--btn-clr);
+    background-color: var(--logo-clr);
+    border-bottom: var(--logo-clr);
+}
+/* Service */
 
+.sevice-subtitle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(36 / 18);
+    letter-spacing: 0.06em;
+}
+
+.sevice-tex {
+color: var(--main-txt-clr);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.03em;
+}
