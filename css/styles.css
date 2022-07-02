@@ -1,34 +1,72 @@
-.root {
+:root {
     --main-txt-font: Roboto, sans-serif;
+    --secondary-txt-font: Raleway, sans-serif;
     --main-txt-clr: #212121;
     --secondary-txt-clr: #757575;
     --logo-clr:#2196F3;
+    --bgr-clr: #2F303A;
 }
-/* Logo */!!!!!!!!!!!!!!
-.element-style {
+
+
+/* Main */
+body { 
+    font-family: var(--main-txt-font);
     color: var(--main-txt-clr);
 }
+/* Logo */
+
 .logo {
+    text-decoration: none;
+    font-family: var(--secondary-txt-font);
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: calc(31 / 26);
     letter-spacing: 0.03em;
     color: #2196F3;
+    
+}
+.logo .element-style {
+color: var(--main-txt-clr);
+}
+
+.logo:hover {
+    color: var(--main-txt-clr)
 }
 
 .list {
     list-style-type: none;
 }
+
 /* Links */
 .link {
     text-decoration: none;
+    color: var(--main-txt-clr);
 }
-
-/* Main */
-.body { 
-    font-family: var(--main-txt-font);
-    color: var(--secondary-txt-clr);
+.link:focus {
+    color: var(--logo-clr);
+}
+.link:hover{
+    color: var(--logo-clr);
+}
+.link :active {
+    color: var(--logo-clr);
+}
+/* Heder */
+.navigation-list { 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+}
+.hero {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: calc(60 / 44);
+    background-color: var(--bgr-clr);
 }
 
 
