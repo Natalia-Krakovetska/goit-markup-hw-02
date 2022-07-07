@@ -160,7 +160,6 @@ body {
 .filter-btn:hover {
   color: var(--btn-clr);
   background-color: var(--logo-clr);
-  border-bottom: var(--logo-clr);
 }
 /* Service */
 
